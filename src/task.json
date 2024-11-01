@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "description": "Task 1",
+    "status": "TODO",
+    "createdAt": "2024-10-31T20:52:06.8037284",
+    "updatedAt": "2024-10-31T20:52:06.8037284"
+  },
+  {
+    "id": "2",
+    "description": "Task 2",
+    "status": "IN_PROGRESS",
+    "createdAt": "2024-10-31T20:52:11.3372821",
+    "updatedAt": "2024-10-31T20:52:11.3372821"
+  },
+  {
+    "id": "3",
+    "description": "Task 3",
+    "status": "DONE",
+    "createdAt": "2024-10-31T20:52:16.5321666",
+    "updatedAt": "2024-10-31T20:52:16.5321666"
+  }
+]
