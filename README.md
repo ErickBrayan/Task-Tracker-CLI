@@ -14,13 +14,46 @@ This is a simple command-line interface (CLI) application for managing tasks. Yo
 1. **Clone the repository:**
 
    ```bash
-   git clone Task Tracker CLI
-   cd task_tracker_cli
+   git clone https://github.com/ErickBrayan/Task-Tracker-CLI.git
+   cd task_tracker_cli/src
 
 2. **Compile the source code:**
     ```bash
-   javac TaskCLIApp.java Task.java TaskManager.java Status.java
+   javac taskcli
 3. **Run the application:**
     ```bash
-   java TaskCLIApp <command> [arguments]
+   java taskcli <command> [arguments]
    ```
+
+## Usage
+```bash
+# Adding a new task
+java taskcli add "Buy groceries"
+# Output: Task added successfully (ID: 1)
+
+# Updating a task
+java taskcli update 1 "Buy groceries and cook dinner"
+# Output: Task updated successfully (ID: 1)
+
+# Deleting a task
+java taskcli delete 1
+# Output: Task deleted successfully (ID: 1)
+
+# Marking a task as in progress
+java taskcli mark-in-progress 1
+# Output: Task marked as in progress (ID: 1)
+
+# Marking a task as done
+java taskcli mark-done 1
+# Output: Task marked as done (ID: 1)
+
+# Listing all tasks
+java taskcli list
+# Output: List of all tasks
+
+# Listing tasks by status
+java taskcli list todo
+java taskcli list in-progress
+java taskcli list done
+
+```
