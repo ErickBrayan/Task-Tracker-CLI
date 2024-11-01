@@ -8,19 +8,22 @@ This is a simple command-line interface (CLI) application for managing tasks. Yo
 - **Delete a Task:** Remove a task by its ID.
 - **Mark a Task:** Mark a task as "in progress" or "done."
 - **List Tasks:** List all tasks or filter them by status (e.g., `todo`, `in progress`, `done`).
+- **Help:** Show all command available
 
 ## Installation
 
 1. **Clone the repository:**
-
    ```bash
    git clone https://github.com/ErickBrayan/Task-Tracker-CLI.git
-   cd task_tracker_cli/src
 
-2. **Compile the source code:**
+2. **Change Directory:**
+   ```bash
+   cd Task-Tracker-Cli/src
+   
+3. **Compile the source code:**
     ```bash
-   javac taskcli
-3. **Run the application:**
+   javac taskcli.java
+4. **Run the application:**
     ```bash
    java taskcli <command> [arguments]
    ```
@@ -56,4 +59,6 @@ java taskcli list todo
 java taskcli list in-progress
 java taskcli list done
 
+# Listing tasks by status
+java taskcli help
 ```
